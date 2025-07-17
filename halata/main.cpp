@@ -261,11 +261,11 @@ public:
 int main() 
 {
     HospitalManagementSystem hms;
-    hms.admitPatient("Roman", "Schizophrenia");
-    hms.admitPatient("Dmytro", "Autistic");
-    hms.admitPatient("Vladislav", "Diarrhea");
-    hms.admitPatient("Sergiu", "Pneumonia");
-    hms.admitPatient("Rares", "Broken Arm");
+    hms.admitPatient("Roman", "First disease");
+    hms.admitPatient("Dmytro", "Second disease");
+    hms.admitPatient("Vladislav", "Third disease");
+    hms.admitPatient("Sergiu", "Fourth disease");
+    hms.admitPatient("Rares", "Fifth disease");
     hms.displaySystem();
     cout << hms.getPatientInfo(0) << endl;
     hms.dischargePatient(0);
